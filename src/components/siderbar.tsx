@@ -2,8 +2,9 @@ import { BsTwitter } from 'react-icons/bs';
 import { menu } from '../constants';
 import { FiMoreHorizontal } from "react-icons/fi";
 import logo from '../assets/logo.jpg';
+import { FaFeatherAlt } from "react-icons/fa";
 
-const Siderbar = ({children}:any) => {
+const Siderbar = ({ children }: any) => {
     return (
         <div className="flex divide-x">
             <div className="flex flex-col w-1/4 h-full justify-start items-start px-10 bg-white overflow-y-auto ">
@@ -20,9 +21,12 @@ const Siderbar = ({children}:any) => {
                     </div>
                     ))
                 }
-                <div className='my-2 p-3 rounded-full bg-primary w-full text-white font-bold text-lg text-center hover:bg-hover_color'>Tweet</div>
+                <div className=' rounded-full bg-primary hover:bg-hover_color my-2 p-3 text-white font-bold text-lg text-center md:w-full '>
+                    <span className='hidden md:block'>Tweet</span>
+                    <FaFeatherAlt className="md:hidden text-xl" />
+                </div>
                 <div className="my-5"></div>
-              
+
 
                 <div className='w-full hover:bg-slate-200 cursor-pointer rounded-full p-3 my-1 flex flex-row justify-around items-center'>
                     <img src={logo} alt="profile pic" className="rounded-full w-12" />
@@ -34,12 +38,12 @@ const Siderbar = ({children}:any) => {
                     <div className='mx-4 hidden md:block'>
                         <FiMoreHorizontal />
                     </div>
-                  
+
 
                 </div>
             </div>
             <div className="w-screen h-screen bg-white">
-                
+
                 {children}
             </div>
         </div>
