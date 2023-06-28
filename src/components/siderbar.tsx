@@ -4,9 +4,8 @@ import { FiMoreHorizontal } from "react-icons/fi";
 import logo from '../assets/logo.jpg';
 import { FaFeatherAlt } from "react-icons/fa";
 
-const Siderbar = ({ children }: any) => {
+const Siderbar = () => {
     return (
-        <div className="flex divide-x">
             <div className="flex flex-col w-1/4 h-full justify-start items-start px-10 bg-white overflow-y-auto ">
                 <div className='hover:bg-slate-200 cursor-pointer rounded-full p-2 my-1'>
                     <BsTwitter className="text-3xl text-primary " />
@@ -42,11 +41,7 @@ const Siderbar = ({ children }: any) => {
 
                 </div>
             </div>
-            <div className="w-screen h-screen bg-white">
-
-                {children}
-            </div>
-        </div>
+          
 
 
     );
