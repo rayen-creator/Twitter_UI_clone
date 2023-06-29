@@ -9,6 +9,7 @@ import logo from '../assets/logo.jpg';
 import sarrah from '../assets/sarah.jpg';
 import john from '../assets/john.jpg';
 import Evelyn from '../assets/Evelyn.jpg';
+import IMDb from "../assets/IMDb.jpg";
 
 export const menu = [
     { icon: <BiHomeCircle className="mr-2 text-xl " />, menuName: "Home" },
@@ -38,7 +39,6 @@ export const users = [
     { img: john, name: "john doe", id: "@john_doe" },
     { img: Evelyn, name: "Evelyn Ortiz", id: "@evelyn_ortiz" },
     { img: sarrah, name: "Sarah Connor", id: "@sarah_connor" },
-
 ]
 
 export const footer_items = [
@@ -49,4 +49,17 @@ export const footer_items = [
     { text: "Ads info" },
     { text: "More" },
     { text: "© 2023 X Corp." },
+]
+
+export const postsList = [
+    { img: logo, profile_name: "rayen oueslati", ID: "@rayenoueslati8",time:"10h",content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ut perspiciatis error, magnam vel amet nobis. Cupiditate non sunt inventore ea animi id ullam, deleniti quisquam ipsa vel voluptate molestias.", like: "30", comment: "52", repost: "8", stats: "25.2K" },
+    { img: IMDb, profile_name: "IMDb", ID: "@IMDb",time:"5h", content: "What's the best movie you've seen so far this year?", like: "189", comment: "232", repost: "79", stats: "102.2K" },
+    { img: IMDb, profile_name: "IMDb", ID: "@IMDb",time:"5h", content: "What's the best movie you've seen so far this year?", like: "189", comment: "232", repost: "79", stats: "102.2K" },
+    { img: IMDb, profile_name: "IMDb", ID: "@IMDb",time:"5h", content: "What's the best movie you've seen so far this year?", like: "189", comment: "232", repost: "79", stats: "102.2K" },
+    { img: IMDb, profile_name: "IMDb", ID: "@IMDb",time:"5h", content: "What's the best movie you've seen so far this year?", like: "189", comment: "232", repost: "79", stats: "102.2K" },
+    { img: IMDb, profile_name: "IMDb", ID: "@IMDb",time:"5h", content: "What's the best movie you've seen so far this year?", like: "189", comment: "232", repost: "79", stats: "102.2K" },
+    { img: IMDb, profile_name: "IMDb", ID: "@IMDb",time:"5h", content: "What's the best movie you've seen so far this year?", like: "189", comment: "232", repost: "79", stats: "102.2K" },
+    { img: IMDb, profile_name: "IMDb", ID: "@IMDb",time:"5h", content: "What's the best movie you've seen so far this year?", like: "189", comment: "232", repost: "79", stats: "102.2K" },
+
+    { img: IMDb, profile_name: "IMDb", ID: "@IMDb",time:"5h", content: "What's the best movie you've seen so far this year?", like: "189", comment: "232", repost: "79", stats: "102.2K" }
 ]

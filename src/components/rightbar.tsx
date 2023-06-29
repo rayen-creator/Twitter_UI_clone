@@ -1,6 +1,7 @@
 import { FiMoreHorizontal } from "react-icons/fi";
 import { TfiSearch } from "react-icons/tfi";
 import { footer_items, trending, users } from "../constants";
+import MoreButton from "./widgets/moreButton";
 
 const Rightbar = () => {
 
@@ -37,9 +38,7 @@ const Rightbar = () => {
                             <div className="flex flex-col p-3 hover:bg-slate-600 hover:bg-opacity-5 cursor-pointer">
                                 <div className="text-sm text-slate-500 flex flex-row justify-between">
                                     <div>{t.categorie}</div>
-                                    <div className="hover:bg-blue-700 p-1 hover:bg-opacity-5 cursor-pointer rounded-full">
-                                        <FiMoreHorizontal className="text-xl hover:text-primary" />
-                                    </div>
+                                    <MoreButton />
                                 </div>
                                 <h1 className="text-md text-black font-bold">{t.hashtag}</h1>
                                 <h1 className="text-sm text-slate-500">{t.nbtweet} Tweets</h1>
