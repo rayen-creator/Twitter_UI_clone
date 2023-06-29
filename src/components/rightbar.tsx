@@ -7,7 +7,7 @@ const Rightbar = () => {
 
     return (<>
 
-        <div className="flex flex-col w-1/3 h-screen  bg-white pl-6 pr-28 py-2 ">
+        <div className=" flex-col w-1/3 h-screen  bg-white pl-6 pr-28 py-2 hidden md:flex ">
 
             {/* search input */}
             <div className="bg-slate-100 rounded-full p-2 w-full flex flex-row justify-center items-center my-1">

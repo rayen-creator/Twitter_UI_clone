@@ -22,7 +22,7 @@ const Siderbar = () => {
                     </div>
                     ))
                 }
-                <div className=' rounded-full bg-primary hover:bg-hover_color my-2 p-3 text-white font-bold text-lg text-center md:w-full '>
+                <div className=' rounded-full bg-primary hover:bg-hover_color my-2 p-3 text-white font-bold text-lg text-center md:w-full  '>
                     <span className='hidden md:block'>Tweet</span>
                     <FaFeatherAlt className="md:hidden text-xl" />
                 </div>
