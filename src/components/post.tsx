@@ -10,7 +10,9 @@ const Posts = () => {
         {/* tweet widget */}
 {
     postsList.map((post)=>(
-        <div className="flex flex-row p-3 hover:bg-slate-600 hover:bg-opacity-5 ">
+        <div 
+        key={post.key}
+        className="flex flex-row p-3 hover:bg-slate-600 hover:bg-opacity-5 ">
         <img src={post.img} alt="profile pic" className="rounded-full w-12 h-11" />
         <div className="flex flex-col w-full">
             <div className="flex items-start px-2">

@@ -12,7 +12,9 @@ const Siderbar = () => {
 
                 </div>
                 {
-                    menu.map((menu) => (<div className='flex flex-row items-center hover:bg-slate-200 cursor-pointer rounded-full px-4 py-2 my-1 '>
+                    menu.map((menu) => (
+                    <div key={menu.menuName}
+                    className='flex flex-row items-center hover:bg-slate-200 cursor-pointer rounded-full px-4 py-2 my-1 '>
                         <div className=''>
                             {menu.icon}
                         </div>

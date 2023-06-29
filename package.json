@@ -1,6 +1,7 @@
 {
   "name": "twitter_clone",
-  "private": true,
+  "homepage": ".",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {

@@ -34,7 +34,7 @@ const Rightbar = () => {
                     <h1 className="font-bold text-xl pb-3 px-3 pt-1">Trends for you</h1>
                     {
                         trending.map((t) => (
-                            <div className="flex flex-col p-3 hover:bg-slate-600 hover:bg-opacity-5 cursor-pointer">
+                            <div key={t.key} className="flex flex-col p-3 hover:bg-slate-600 hover:bg-opacity-5 cursor-pointer">
                                 <div className="text-sm text-slate-500 flex flex-row justify-between">
                                     <div>{t.categorie}</div>
                                     <MoreButton />
@@ -55,7 +55,7 @@ const Rightbar = () => {
                     <h1 className="text-xl font-bold p-3">Who to follow</h1>
                     {
                         users.map((u) => (
-                            <div className="flex flex-row justify-around items-center p-3 hover:bg-slate-600 hover:bg-opacity-5 ">
+                            <div key={u.key} className="flex flex-row justify-around items-center p-3 hover:bg-slate-600 hover:bg-opacity-5 ">
                                <img src={u.img} alt="profile pic" className="rounded-full w-12 h-11" />
                                 <div className='flex flex-col flex-1 px-2 '>
                                     <div className='text-md font-bold hidden md:block'>{u.name}</div>
@@ -75,7 +75,7 @@ const Rightbar = () => {
                 <div className="text-gray-600 text-sm p-2">
                     {
                         footer_items.map((f)=>(
-                            <span className="p-2 hover:underline">
+                            <span key={f.key} className="p-2 hover:underline">
                            {f.text}
                         </span>
                         ))
