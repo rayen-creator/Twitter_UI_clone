@@ -1,5 +1,3 @@
-import logo from '../assets/logo.jpg';
-import TweetWidget from './widgets/tweet_widget';
 
 const Header = () => {
     return (<>

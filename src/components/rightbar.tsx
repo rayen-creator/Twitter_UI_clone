@@ -1,4 +1,3 @@
-import { FiMoreHorizontal } from "react-icons/fi";
 import { TfiSearch } from "react-icons/tfi";
 import { footer_items, trending, users } from "../constants";
 import MoreButton from "./widgets/moreButton";

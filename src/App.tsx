@@ -1,9 +1,6 @@
-import Header from './components/header'
 import Home from './components/home'
-import Posts from './components/post'
 import Rightbar from './components/rightbar'
 import Siderbar from './components/siderbar'
-import TweetWidget from './components/widgets/tweet_widget'
 
 function App() {
 

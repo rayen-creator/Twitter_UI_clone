@@ -1,5 +1,4 @@
-import TweetWidget from "./widgets/tweet_widget";
-import logo from '../assets/logo.jpg';
+
 import MoreButton from "./widgets/moreButton";
 import { FaRegComment } from "react-icons/fa";
 import { AiOutlineHeart } from "react-icons/ai";
