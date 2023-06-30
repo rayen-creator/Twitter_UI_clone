@@ -3,6 +3,11 @@
 
 A simple Twitter UI clone built using react-ts , vite and tailwindcss
 
+## 🚀 Built With
+<a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,tailwindcss,vite" />
+  </a>
+</p>
 
 
 ## ⚙ Installation
