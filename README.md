@@ -17,7 +17,7 @@ Make sure you have nodejs installed
 1- clone project
 
 ```bash
-  $ git clone https://github.com/rayen-creator/Twitter_UI_clone
+  $ git clone https://github.com/rayen-creator/Twitter_UI_clone.git
 ```
 
 2- Install npm packages
